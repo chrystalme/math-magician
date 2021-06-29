@@ -9,7 +9,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "big.js": "6.1.1",
+    "prop-types": "15.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -50,8 +52,6 @@
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.19.0",
-    "big.js": "6.1.1",
-    "prop-types": "15.7.2"
+    "stylelint-scss": "^3.19.0"    
   }
 }
