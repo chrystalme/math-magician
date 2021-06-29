@@ -27,6 +27,10 @@ npm install
 npm run start
 ```
 
+#### Live Link
+
+[Calculator](https://math-magician-calc.herokuapp.com/)
+
 ## Authors
 
 👤 **Malieze Afam Ifeanyi**
