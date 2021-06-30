@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 class Display extends React.Component {
   constructor(props) {
@@ -8,9 +8,7 @@ class Display extends React.Component {
 
   render() {
     return (
-      <ReactFragment>
-        <label htmlFor="displayResult">0</label>
-      </ReactFragment>
+
     );
   }
 }
