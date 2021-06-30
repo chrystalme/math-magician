@@ -1,15 +1,21 @@
-import React, {Component} from 'react';
-import Button from 
+import React, { Component } from "react";
+import Button from "./button";
 
 class ButtonPanel extends Component {
   constructor(props) {
     super(props);
-    this.state = {  }
+    this.state = {};
   }
+
   render() {
     return (
-      <div></div>
-     );
+      <>
+        <Button />
+        <Button />
+        <Button />
+        <Button />
+      </>
+    );
   }
 }
 

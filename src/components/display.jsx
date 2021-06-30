@@ -8,7 +8,7 @@ class Display extends React.Component {
 
   render() {
     return (
-
+      
     );
   }
 }
