@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Display = (props) => {
   const { result } = props;
   return (
-    <input type="text" value={result} readOnly />
+    <input className="d-flex justify-content-end" type="text" value={result} readOnly />
   );
 };
 

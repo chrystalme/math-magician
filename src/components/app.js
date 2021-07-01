@@ -6,7 +6,7 @@ import '../App.css';
 function App() {
   return (
 
-    <form action="">
+    <form className="App-header" action="">
       <Display result="0" />
       <ButtonPanel />
     </form>
