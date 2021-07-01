@@ -6,10 +6,10 @@ import '../App.css';
 function App() {
   return (
 
-    <form className="App-header" action="">
-      <Display result="0" />
+    <>
+      <Display />
       <ButtonPanel />
-    </form>
+    </>
   );
 }
 
