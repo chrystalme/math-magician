@@ -1,17 +1,6 @@
-const calculate = (
-  calculatorData = {
-    total: 0, next: 0, operation: undefined,
-  },
-  buttonName,
-) => {
-  switch (buttonName) {
-    case '+':
+import operate from './operate';
 
-      break;
-
-    default:
-      break;
-  }
+const calculate = (calculatorData, buttonName) => {
+  
 };
-
 export default calculate;

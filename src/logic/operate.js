@@ -17,10 +17,14 @@ const operate = (numberOne, numberTwo, operation) => {
     case 'x':
       result = x * y;
       break;
+    case '%':
+      result = x / 100;
+      break;
     default:
       return;
   }
-  result;
+  // eslint-disable-next-line consistent-return
+  return (result);
 };
 
 export default operate;
