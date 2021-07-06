@@ -1,7 +1,17 @@
-import Big from 'big.js';
+const calculate = (
+  calculatorData = {
+    total: 0, next: 0, operation: undefined,
+  },
+  buttonName,
+) => {
+  switch (buttonName) {
+    case '+':
 
-const calculate = () => {
+      break;
 
+    default:
+      break;
+  }
 };
 
 export default calculate;
