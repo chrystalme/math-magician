@@ -4,15 +4,14 @@ import ButtonPanel from './buttonPanel';
 import calculate from '../logic/calculate';
 import '../App.css';
 
-function App() {
+const App = () => {
   calculate();
   return (
-
     <>
       <Display />
       <ButtonPanel />
     </>
   );
-}
+};
 
 export default App;

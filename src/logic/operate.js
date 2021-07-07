@@ -6,19 +6,19 @@ const operate = (numberOne, numberTwo, operation) => {
   let result;
   switch (operation) {
     case '+':
-      result = x + y;
+      result = Big(x.plus(y));
       break;
     case '-':
-      result = x - y;
+      result = Big(x.minus(y));
       break;
     case '÷':
-      result = x / y;
+      result = Big(x.div(y));
       break;
     case 'x':
-      result = x * y;
+      result = Big(x.times(y));
       break;
     case '%':
-      result = x / 100;
+      result = Big(x.div(100));
       break;
     default:
       return;
