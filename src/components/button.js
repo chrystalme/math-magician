@@ -2,11 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = (props) => {
-  const { name } = props;
-
-  const handleClick = () => {
-    alert('clicked');
-  };
+  const { name, handleClick } = props;
 
   return (
     <input type="button" value={name} onClick={handleClick} />
@@ -15,6 +11,7 @@ const Button = (props) => {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Button;
