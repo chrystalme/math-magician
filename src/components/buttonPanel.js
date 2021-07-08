@@ -4,7 +4,7 @@ import Button from './button';
 const ButtonPanel = () => (
   <>
     <div className="btn-group" role="group" aria-label="Basic example">
-      <Button name="AC" handleClick={handleClick}/>
+      <Button name="AC" />
       <Button name="+/-" />
       <Button name="%" />
       <Button name="÷" />
