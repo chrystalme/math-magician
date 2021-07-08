@@ -5,7 +5,11 @@ import calculate from '../logic/calculate';
 import '../App.css';
 
 const App = () => {
-  calculate();
+
+  const handleClick = buttonName => {
+    const result = calculate({ total, next, operation }, buttonName);
+    // alert(event.target.value);
+  };
   return (
     <>
       <Display />
