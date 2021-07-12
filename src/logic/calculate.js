@@ -7,7 +7,7 @@ const calculate = (
   const { total, next, operation } = calculatorData;
   const result = calculatorData;
   const numbers = /[0-9]/;
-  const operators = ['+', '-', 'x', '÷', '%'];
+  const operators = ['+', '-', 'x', '÷'];
 
   if (buttonName === 'AC') {
     result.total = undefined;
@@ -15,15 +15,24 @@ const calculate = (
     result.operation = undefined;
   }
 
+  if (buttonName === '%') {
+    if (total && !next) {
+      result.total = operate(total, 100, '÷');
+    }
+    if (next) {
+      result.next = operate(next, 100, '÷');
+    }
+  }
+
   if (buttonName === '.') {
     if (!total && !next) {
       result.total = '0.';
     }
-    if (total && next && total.indexOf('.') === -1) {
-      result.total = '{total}.';
+    if (total && !next && total.indexOf('.') === -1) {
+      result.total = `${total}.`;
     }
     if (next && next.indexOf('.') === -1) {
-      result.next = '{next}.';
+      result.next = `${next}.`;
     }
   }
 
@@ -32,13 +41,19 @@ const calculate = (
       result.total = operate(total, -1, 'x');
     }
     if (next) {
-      result.total = operate(next, -1, 'x');
+      result.next = operate(next, -1, 'x');
     }
   }
 
   if (operators.includes(buttonName)) {
-    if (total && next) {
-      result.total = operate(total, next, buttonName);
+    const nextOperand = buttonName === '=' ? undefined : buttonName;
+    if (total && next && operation) {
+      result.total = operate(total, next, operation);
+      result.next = undefined;
+      result.operation = nextOperand;
+    }
+    if (total && !next) {
+      result.operation = nextOperand;
     }
   }
 

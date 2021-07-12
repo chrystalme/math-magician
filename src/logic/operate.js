@@ -17,9 +17,6 @@ const operate = (numberOne, numberTwo, operation) => {
     case 'x':
       result = Big(x.times(y));
       break;
-    case '%':
-      result = Big(x.div(100));
-      break;
     default:
       return;
   }
