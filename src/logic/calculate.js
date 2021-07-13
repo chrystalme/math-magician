@@ -31,7 +31,7 @@ const calculate = (
     if (next) {
       result.next = '0.';
     }
-    if (total && !next && !total.includes('.')) {
+    if (total && !total.includes('.')) {
       result.total = `${total}.`;
     }
     if (next && !next.includes('.')) {

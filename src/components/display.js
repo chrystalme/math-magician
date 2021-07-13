@@ -6,8 +6,8 @@ const Display = (props) => {
   return (
     <>
       <input className="d-flex justify-content-end" value={result} />
-      <span>{next || null}</span>
-      <span>{operator || null}</span>
+      <span>{next || ''}</span>
+      <span>{operator || ''}</span>
     </>
   );
 };
