@@ -28,10 +28,10 @@ const calculate = (
     if (!total && !next) {
       result.total = '0.';
     }
-    if (total && !next && total.indexOf('.') === -1) {
+    if (total && !next && !total.includes('.')) {
       result.total = `${total}.`;
     }
-    if (next && next.indexOf('.') === -1) {
+    if (next && !next.includes('.')) {
       result.next = `${next}.`;
     }
   }
@@ -76,6 +76,8 @@ const calculate = (
   if (buttonName === '=') {
     if (total && next) {
       result.total = operate(total, next, operation);
+      result.next = undefined;
+      result.operation = undefined;
     }
     if (total && !next) {
       result.total = total;
