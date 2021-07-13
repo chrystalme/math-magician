@@ -2,16 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Display = (props) => {
-  const { result } = props;
+  const { result, next, operator } = props;
   return (
-    <input className="d-flex justify-content-end" type="text" value={result} readOnly />
+    <>
+      <input className="d-flex justify-content-end" value={result} />
+      <span>{next || ''}</span>
+      <span>{operator || ''}</span>
+    </>
   );
 };
 
-Display.propTypes = {
-  result: PropTypes.string,
+Display.defaultProps = {
+  result: '0',
+  next: undefined,
+  operator: undefined,
 };
 
-Display.defaultProps = { result: '0' };
+Display.propTypes = {
+  next: PropTypes.string,
+  result: PropTypes.string,
+  operator: PropTypes.string,
+};
 
 export default Display;
