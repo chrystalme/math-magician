@@ -28,6 +28,9 @@ const calculate = (
     if (!total && !next) {
       result.total = '0.';
     }
+    if (next) {
+      result.next = '0.';
+    }
     if (total && !next && !total.includes('.')) {
       result.total = `${total}.`;
     }
