@@ -17,10 +17,10 @@ const App = () => {
   };
 
   return (
-    <>
+    <div className="App-body">
       <Display result={total} operator={operation} next={next} />
       <ButtonPanel clickHandler={handleClick} />
-    </>
+    </div>
   );
 };
 

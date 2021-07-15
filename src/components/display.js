@@ -1,13 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+const operatorStyle = {
+  color: 'black',
+  top: 50,
+  left: 380,
+};
 const Display = (props) => {
   const { result, next, operator } = props;
   return (
     <>
-      <input className="d-flex justify-content-end" value={result} />
-      <span>{next || ''}</span>
-      <span>{operator || ''}</span>
+      <div
+        style={{
+          color: 'tomato', backgroundColor: 'whitesmoke', display: 'flex', justifyContent: 'flex-end', position: 'relative', width: '40%', height: 70,
+        }}
+      >
+        {result}
+
+        <span style={operatorStyle}>{operator || ''}</span>
+        <span>{next || ''}</span>
+      </div>
     </>
   );
 };
