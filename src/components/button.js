@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const getClass = (buttonName) => {
   const numbers = /[0-9]/;
   const operators = ['+', '-', 'x', '÷'];
-  let classes = 'm-3 p-3 btn btn-';
+  let classes = 'm-2 p-3 btn btn-';
 
   if (numbers.test(buttonName)) {
     classes += 'secondary';

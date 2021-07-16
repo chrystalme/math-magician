@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './button';
 
-const getClasses = () => 'd-flex justify-content-between w-25';
+const getClasses = () => 'd-flex justify-content-around w-25 align-items-stretch';
 
 const ButtonPanel = ({ clickHandler }) => (
   <>
