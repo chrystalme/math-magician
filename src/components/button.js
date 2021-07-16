@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// const styles = {
-//   color: 'white', padding: 5, backgroundColor: 'blue',
-// };
 const getClass = (buttonName) => {
   const numbers = /[0-9]/;
   const operators = ['+', '-', 'x', '÷'];
@@ -22,14 +19,23 @@ const getClass = (buttonName) => {
   return classes;
 };
 
-const Button = ({ name, clickHandler }) => (
-  <input className={getClass(name)} value={name} type="button" onClick={() => clickHandler(name)} />
+const Button = ({
+  name, clickHandler, color, wide,
+}) => (
+  <input className={`${getClass(name)} ${color} ${wide}`} value={name} type="button" onClick={() => clickHandler(name)} />
 
 );
+
+Button.defaultProps = {
+  color: false,
+  wide: false,
+};
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
   clickHandler: PropTypes.func.isRequired,
+  color: PropTypes.bool,
+  wide: PropTypes.bool,
 };
 
 export default Button;
