@@ -20,6 +20,7 @@ const operate = (numberOne, numberTwo, operation) => {
     default:
       return;
   }
+  result += '';
   // eslint-disable-next-line consistent-return
   return (result);
 };
