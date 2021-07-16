@@ -22,7 +22,14 @@ const getClass = (buttonName) => {
   return classes;
 };
 
-const Button = ({ name, clickHandler }) => (
+// const getWide = (buttonName) => {
+//   const wide = buttonName === '0' ? 'w-50' : '';
+//   return wide;
+// };
+
+const Button = ({
+  name, clickHandler, /* color, wide, */
+}) => (
   <input className={getClass(name)} value={name} type="button" onClick={() => clickHandler(name)} />
 
 );

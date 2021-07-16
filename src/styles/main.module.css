@@ -6,3 +6,16 @@
   align-items: center;
   width: 700px;
 }
+
+.display {
+  background-color: #b3b3b3;
+  color: wheat;
+  font-weight: bold;
+  height: 100px;
+  padding: 0 10px;
+  text-align: right;
+}
+
+.app {
+  margin-top: 30px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../styles/main.module.css';
 
 const operatorStyle = {
   color: 'black',
@@ -11,9 +12,7 @@ const Display = (props) => {
   return (
     <>
       <div
-        style={{
-          color: 'tomato', backgroundColor: 'whitesmoke', display: 'flex', justifyContent: 'flex-end', position: 'relative', width: '40%', height: 70,
-        }}
+        className={styles.display}
       >
         {result}
 
