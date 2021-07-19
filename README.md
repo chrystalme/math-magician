@@ -14,18 +14,23 @@
 - big.js
 
 #### Project Setup
-
+create a local copy 
 ```
 $ git clone https://github.com/chrystalme/math-magician.git
 ```
-
+install dependencies
 ```
 npm install
 ```
-
+run the calculator app locally
 ```
 npm run start
 ```
+run tests
+```
+npm run test
+```
+
 
 #### Live Link
 
