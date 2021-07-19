@@ -29,4 +29,12 @@ describe('Calculate logic', () => {
     const result = calculate({ total: '3', next: '', operation: '' }, '.');
     expect(result.total).toEqual('3.');
   });
+  test('x button works as expected', () => {
+    const result = calculate({ total: '3', next: '3', operation: 'x' }, '=');
+    expect(result.total).toEqual('9');
+  });
+  test('÷ button works as expected', () => {
+    const result = calculate({ total: '3', next: '3', operation: '÷' }, '=');
+    expect(result.total).toEqual('1');
+  });
 });
