@@ -6,14 +6,26 @@ const operatorStyle = {
   top: 50,
   left: 380,
 };
+
+const displayStyle = {
+  fontWeight: 700,
+  fontSize: 'x-large',
+  color: 'tomato',
+  backgroundColor: 'whitesmoke',
+  display: 'flex',
+  justifyContent: 'flex-end',
+  position: 'relative',
+  width: '300px',
+  height: 70,
+  padding: 5,
+};
+
 const Display = (props) => {
   const { result, next, operator } = props;
   return (
     <>
       <div
-        style={{
-          color: 'tomato', backgroundColor: 'whitesmoke', display: 'flex', justifyContent: 'flex-end', position: 'relative', width: '40%', height: 70,
-        }}
+        style={displayStyle}
       >
         {result}
 

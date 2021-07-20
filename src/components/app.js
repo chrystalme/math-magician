@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Display from './display';
 import ButtonPanel from './buttonPanel';
 import calculate from '../logic/calculate';
+import Nav from './nav';
 import '../App.css';
 
 const App = () => {
@@ -17,10 +18,13 @@ const App = () => {
   };
 
   return (
-    <div className="App-body">
-      <Display result={total} operator={operation} next={next} />
-      <ButtonPanel clickHandler={handleClick} />
-    </div>
+    <>
+      <Nav />
+      <div className="App-body">
+        <Display result={total} operator={operation} next={next} />
+        <ButtonPanel clickHandler={handleClick} />
+      </div>
+    </>
   );
 };
 
