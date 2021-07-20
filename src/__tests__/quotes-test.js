@@ -16,7 +16,6 @@ describe('Quotes', () => {
   test('Text match Home page test', () => {
     const { getByText } = render(<Routes><Quotes /></Routes>);
     const text = getByText('Math-magician');
-    // eslint-disable-next-line no-unused-expressions
-    expect(text).toBeInTheDocument;
+    expect(text).toBeInTheDocument();
   });
 });

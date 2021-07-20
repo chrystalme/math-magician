@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import App from '../components/app';
 import Routes from '../components/routes';
 
@@ -20,8 +21,7 @@ describe('App', () => {
       </Routes>,
     );
     const buttonElement = screen.getByText(/AC/i);
-    // eslint-disable-next-line no-unused-expressions
-    expect(buttonElement).toBeInTheDocument;
+    expect(buttonElement).toBeInTheDocument();
   });
   test('renders button x', () => {
     render(
@@ -30,8 +30,7 @@ describe('App', () => {
       </Routes>,
     );
     const buttonElement = screen.getByText(/x/i);
-    // eslint-disable-next-line no-unused-expressions
-    expect(buttonElement).toBeInTheDocument;
+    expect(buttonElement).toBeInTheDocument();
   });
   test('renders button -', () => {
     render(
@@ -40,7 +39,6 @@ describe('App', () => {
       </Routes>,
     );
     const buttonElement = screen.getByText(/-/i);
-    // eslint-disable-next-line no-unused-expressions
-    expect(buttonElement).toBeInTheDocument;
+    expect(buttonElement).toBeInTheDocument();
   });
 });
