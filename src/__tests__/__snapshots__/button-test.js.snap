@@ -2,7 +2,7 @@
 
 exports[`Button Button snapshot test 1`] = `
 <input
-  className="m-3 p-3 btn btn-info"
+  className="m-2 p-3 btn btn-info false false"
   onClick={[Function]}
   type="button"
   value="AC"

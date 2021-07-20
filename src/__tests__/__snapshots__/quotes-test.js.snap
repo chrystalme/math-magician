@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App App snapshot test 1`] = `
+exports[`Quotes quotes component is rendered correctly 1`] = `
 Array [
   <nav
     className="navbar navbar-expand-lg navbar-light bg-light"
