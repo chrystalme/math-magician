@@ -1,18 +1,16 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import App from '../components/app';
 import Routes from '../components/routes';
 
 describe('App', () => {
   test('App snapshot test', () => {
-    const component = renderer.create(
+    const component = render(
       <Routes>
         <App />
       </Routes>,
     );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(component).toMatchSnapshot();
   });
 
   test('renders button AC', () => {

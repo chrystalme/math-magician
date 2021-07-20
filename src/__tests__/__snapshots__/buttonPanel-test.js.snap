@@ -1,140 +1,294 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ButtonPanel ButtonPanel snapshot test 1`] = `
-Array [
-  <div
-    className="d-flex justify-content-around w-25 align-items-stretch"
-  >
-    <input
-      className="m-2 p-3 btn btn-info false false"
-      onClick={[Function]}
-      type="button"
-      value="AC"
-    />
-    <input
-      className="m-2 p-3 btn btn-info false false"
-      onClick={[Function]}
-      type="button"
-      value="+/-"
-    />
-    <input
-      className="m-2 p-3 btn btn-info false false"
-      onClick={[Function]}
-      type="button"
-      value="%"
-    />
-    <input
-      className="m-2 p-3 btn btn-danger false false"
-      onClick={[Function]}
-      type="button"
-      value="÷"
-    />
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="d-flex justify-content-around w-25 align-items-stretch"
+      >
+        <input
+          class="m-2 p-3 btn btn-info false false"
+          type="button"
+          value="AC"
+        />
+        <input
+          class="m-2 p-3 btn btn-info false false"
+          type="button"
+          value="+/-"
+        />
+        <input
+          class="m-2 p-3 btn btn-info false false"
+          type="button"
+          value="%"
+        />
+        <input
+          class="m-2 p-3 btn btn-danger false false"
+          type="button"
+          value="÷"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-around w-25 align-items-stretch"
+      >
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="7"
+        />
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="8"
+        />
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="9"
+        />
+        <input
+          class="m-2 p-3 btn btn-danger false false"
+          type="button"
+          value="x"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-around w-25 align-items-stretch"
+      >
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="4"
+        />
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="5"
+        />
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="6"
+        />
+        <input
+          class="m-2 p-3 btn btn-danger false false"
+          type="button"
+          value="-"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-around w-25 align-items-stretch"
+      >
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="1"
+        />
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="2"
+        />
+        <input
+          class="m-2 p-3 btn btn-secondary false false"
+          type="button"
+          value="3"
+        />
+        <input
+          class="m-2 p-3 btn btn-danger false false"
+          type="button"
+          value="+"
+        />
+      </div>
+      <div
+        class="d-flex justify-content-around w-25 align-items-stretch"
+      >
+        <input
+          class="m-2 p-3 btn btn-secondary w-50 false false"
+          type="button"
+          value="0"
+        />
+        <input
+          class="m-2 p-3 btn btn-info false false"
+          type="button"
+          value="."
+        />
+        <input
+          class="m-2 p-3 btn btn-info false false"
+          type="button"
+          value="="
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="d-flex justify-content-around w-25 align-items-stretch"
+    >
+      <input
+        class="m-2 p-3 btn btn-info false false"
+        type="button"
+        value="AC"
+      />
+      <input
+        class="m-2 p-3 btn btn-info false false"
+        type="button"
+        value="+/-"
+      />
+      <input
+        class="m-2 p-3 btn btn-info false false"
+        type="button"
+        value="%"
+      />
+      <input
+        class="m-2 p-3 btn btn-danger false false"
+        type="button"
+        value="÷"
+      />
+    </div>
+    <div
+      class="d-flex justify-content-around w-25 align-items-stretch"
+    >
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="7"
+      />
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="8"
+      />
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="9"
+      />
+      <input
+        class="m-2 p-3 btn btn-danger false false"
+        type="button"
+        value="x"
+      />
+    </div>
+    <div
+      class="d-flex justify-content-around w-25 align-items-stretch"
+    >
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="4"
+      />
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="5"
+      />
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="6"
+      />
+      <input
+        class="m-2 p-3 btn btn-danger false false"
+        type="button"
+        value="-"
+      />
+    </div>
+    <div
+      class="d-flex justify-content-around w-25 align-items-stretch"
+    >
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="1"
+      />
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="2"
+      />
+      <input
+        class="m-2 p-3 btn btn-secondary false false"
+        type="button"
+        value="3"
+      />
+      <input
+        class="m-2 p-3 btn btn-danger false false"
+        type="button"
+        value="+"
+      />
+    </div>
+    <div
+      class="d-flex justify-content-around w-25 align-items-stretch"
+    >
+      <input
+        class="m-2 p-3 btn btn-secondary w-50 false false"
+        type="button"
+        value="0"
+      />
+      <input
+        class="m-2 p-3 btn btn-info false false"
+        type="button"
+        value="."
+      />
+      <input
+        class="m-2 p-3 btn btn-info false false"
+        type="button"
+        value="="
+      />
+    </div>
   </div>,
-  <div
-    className="d-flex justify-content-around w-25 align-items-stretch"
-  >
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="7"
-    />
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="8"
-    />
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="9"
-    />
-    <input
-      className="m-2 p-3 btn btn-danger false false"
-      onClick={[Function]}
-      type="button"
-      value="x"
-    />
-  </div>,
-  <div
-    className="d-flex justify-content-around w-25 align-items-stretch"
-  >
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="4"
-    />
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="5"
-    />
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="6"
-    />
-    <input
-      className="m-2 p-3 btn btn-danger false false"
-      onClick={[Function]}
-      type="button"
-      value="-"
-    />
-  </div>,
-  <div
-    className="d-flex justify-content-around w-25 align-items-stretch"
-  >
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="1"
-    />
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="2"
-    />
-    <input
-      className="m-2 p-3 btn btn-secondary false false"
-      onClick={[Function]}
-      type="button"
-      value="3"
-    />
-    <input
-      className="m-2 p-3 btn btn-danger false false"
-      onClick={[Function]}
-      type="button"
-      value="+"
-    />
-  </div>,
-  <div
-    className="d-flex justify-content-around w-25 align-items-stretch"
-  >
-    <input
-      className="m-2 p-3 btn btn-secondary w-50 false false"
-      onClick={[Function]}
-      type="button"
-      value="0"
-    />
-    <input
-      className="m-2 p-3 btn btn-info false false"
-      onClick={[Function]}
-      type="button"
-      value="."
-    />
-    <input
-      className="m-2 p-3 btn btn-info false false"
-      onClick={[Function]}
-      type="button"
-      value="="
-    />
-  </div>,
-]
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

@@ -1,14 +1,13 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import ButtonPanel from '../components/buttonPanel';
 
 describe('ButtonPanel', () => {
   const clickHandler = () => { ''; };
   test('ButtonPanel snapshot test', () => {
-    const component = renderer.create(
+    const component = render(
       <ButtonPanel clickHandler={clickHandler} />,
     );
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(component).toMatchSnapshot();
   });
 });
