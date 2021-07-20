@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display display component is rendered correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "whitesmoke",
+      "color": "tomato",
+      "display": "flex",
+      "fontSize": "x-large",
+      "fontWeight": 700,
+      "height": 70,
+      "justifyContent": "flex-end",
+      "padding": 5,
+      "position": "relative",
+      "width": "300px",
+    }
+  }
+>
+  0
+  <span
+    style={
+      Object {
+        "color": "black",
+        "left": 380,
+        "top": 50,
+      }
+    }
+  >
+    
+  </span>
+  <span>
+    
+  </span>
+</div>
+`;
